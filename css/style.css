@@ -1,0 +1,617 @@
+/**----FONTS----*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/**----RESET----*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+/*?---------HEADER---------*/
+
+header{
+    background-color: rgba(140, 146, 231, 0.692);
+}
+
+header nav div div ul li a{
+    margin: 0px 8px 0px 8px;
+}
+
+.navbar-brand img{
+    width: 100px;
+    height: 100px;
+}
+
+.d-flex{
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+}
+
+.form-control{
+    counter-reset: none;
+}
+
+.btn{
+    position: absolute;
+    right: 0;
+    height: 50px;
+}
+
+
+
+
+
+
+
+/*?---------MAIN---------*/
+
+/*!----INDEX----*/
+
+main{
+    background-color:  rgb(0, 0, 0);
+}
+
+.hero{
+    width: 100%;
+    height: calc(100vh - 56px);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-image: url(../img/griferia-artesanal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 40px;
+}
+
+.hero h1{
+    border: 2px solid rgba(122, 120, 120, 0.89);
+    background-color: rgba(140, 146, 231, 0.692);
+    padding: 27px;
+    font-size: 55px;
+}
+
+.hero p{
+    border: 1px solid rgba(122, 120, 120, 0.89);
+    background-color: rgba(140, 146, 231, 0.733);
+    margin: 10px 0 20px 0px;  
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.destacados{
+    text-align: center;
+}
+
+.destacados h2{
+    background-color: rgba(73, 73, 73, 0.651) ;
+    color: rgba(140, 146, 231, 0.836);
+    font-size: 40px;
+    margin: 0 0 50px 0;
+    padding: 10px;
+}
+
+.contenedor-destacados{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-destacados div{
+    border: 1px solid rgb(0, 0, 0);
+    width: 250px;
+    height: 340px;
+    background-color: rgba(122, 120, 120, 0.89);
+    margin: 10px 5px 10px 5px;
+}
+
+.contenedor-destacados div img{
+    width: 99%;
+    height: 250px;
+}
+
+.contenedor-destacados div h3{
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.contenedor-destacados div a{
+    text-decoration: none;
+    background-color: black;
+    color: rgb(161, 161, 161);
+    padding: 10px;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 430px;
+    gap: 5px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+.galeria-item{
+    position: relative;
+}
+
+.galeria div h3{
+    position: absolute;
+    bottom: 0;
+    color: #c9cfdb;
+    background-color: #0000009f;
+    width: 100%;
+}
+
+.galeria div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-2{
+    grid-row: span 2;
+}
+
+.img-6{
+    grid-column: span 2;
+}
+
+
+/*!----NOSOTROS----*/
+
+.maison{
+    text-align: center;
+}
+
+.maison article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.maison article img{
+    width: 55%;
+    height: 500px;
+}
+
+.maison article div h1{
+    font-size: 45px;
+    margin: 20px 0 30px 0;
+}
+
+.maison article div p{
+    font-size: 24px;
+    margin: 25px 25px 25px 25px;
+}
+
+.portafolio h2{
+    background-color: rgb(0, 0, 0) ;
+    color: rgba(255, 255, 255, 0.404);
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.portafolio div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.portafolio div img{
+    width: 25%;
+    height: 400px;
+}
+
+/*!----PRODUCTOS----*/
+
+.contenedor-mesadas{
+    width: 76%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.productos-mesadas h1{
+    border: 1px solid grey;
+    font-size: 25px;
+    margin: 0 0 30px 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.productos-mesadas article div{
+    border: 1px solid rgb(0, 0, 0);
+    width: 292px;
+    height: 340px;
+    text-align: center;
+    background-color: rgba(122, 120, 120, 0.89);
+    margin-bottom: 10px;
+}
+
+.productos-mesadas article div img{
+    width: 290px;
+    height: 250px;
+}
+
+.productos-mesadas article div h3{
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.productos-mesadas article div a{
+    text-decoration: none;
+    background-color: black;
+    color: rgb(161, 161, 161);
+    padding: 10px;
+}
+
+/**-----CAMBIO DE SECCION------*/
+
+.contenedor-pared{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.productos-pared h2{  
+    border: 1px solid grey;  
+    font-size: 25px;
+    margin: 0 0 30px 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.contenedor-pared div{
+    border: 1px solid rgb(0, 0, 0);
+    width: 292px;
+    height: 340px;
+    text-align: center;
+    background-color: rgba(122, 120, 120, 0.89);
+    margin-bottom: 10px;
+}
+
+.contenedor-pared div img{
+    width: 290px;
+    height: 250px;
+}
+
+.contenedor-pared div h3{
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.contenedor-pared div a{
+    text-decoration: none;
+    background-color: black;
+    color: rgb(161, 161, 161);
+    padding: 10px;
+}
+
+/*!----LOGIN----*/
+
+.form-page{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-register{
+    width: 600px;
+    height: 520px;
+    background: #5d656d;
+    padding: 30px;
+    margin: 50px 0 45px 0;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #222222;
+}
+
+.form-register h1{
+    text-align: center;
+    color: #24303c;
+    font-size: 35px;
+    margin-bottom: 28px;
+}
+
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #babbbd;
+    font-size: 18px;
+    color: white;
+}
+
+.form-register p{
+    color: #24303c;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register, a{
+    color: #24303c;
+}
+
+.form-register, a:hover{
+    color: rgba(129, 129, 129, 0.849);
+}
+
+.form-register .botons{
+    width: 100%;
+    background: #1f54c552;
+    border: none;
+    padding: 12px;
+    color: rgb(143, 142, 142);
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+/*!----CONTACTO----*/
+
+.contacto-page{
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-contacto{    
+    width: 600px;
+    height: 430px;
+    background: #5d656d;
+    padding: 30px;
+    margin: 50px 0 45px 0;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #222222;
+}
+
+.form-contacto h1{
+    color: #24303c;
+    font-size: 35px;
+    margin-bottom: 28px;
+}
+
+.form-contacto .botons{
+    width: 100%;
+    background: #1f54c552;
+    border: none;
+    padding: 12px;
+    color: rgb(143, 142, 142);
+    margin: 15px 0 20px 0;
+    font-size: 16px;
+}
+
+/*?----FOOTER----*/
+
+footer{
+    background-color: #24262b;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.contenedor-footer{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.footer-row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-links{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-links h4{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #00c3ff;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.social-link a img{
+    width: 25px;
+    height: 25px;
+    margin-left: 7px;
+}
+
+
+.footer-links ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #BBBBBB;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+
+
+
+
+/*!-----MEDIA QUERY-----*/
+
+@media screen and ( max-width: 1350px ){
+    .hero{
+        padding-left: 10px;
+    }
+}
+
+@media screen and ( max-width: 1300px ){
+    .contenedor-destacados{
+        margin: 20px 132px 20px 132px;
+    } 
+}
+
+@media screen and ( max-width: 1225px ){
+    .hero{
+        justify-content: start ;
+        align-items: start;
+        padding: 130px 0px 0px 40px;
+    }
+
+    .hero h1{
+        font-size: 45px;
+    }
+}
+
+
+@media screen and ( max-width: 1125px ){
+    .contenedor-destacados{
+        margin: 20px 80px 20px 80px;
+    } 
+
+    .galeria{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .img-6{
+        grid-column: span 3;
+    }
+}
+
+@media screen and ( max-width: 991px ){
+    .hero{
+        justify-content: start ;
+        align-items: center;
+        padding: 70px 0px 0px 6px;
+        background-position: right;
+    }
+    .hero h1{
+        font-size: 40px;
+    }
+    
+    .hero p{
+        font-size: 16px;
+    }
+}
+
+@media screen and ( max-width: 860px ){
+    .galeria{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .img-6{
+        grid-column: span 2;
+    }
+}
+
+@media screen and ( max-width: 795px ){
+    .footer-row{
+        justify-content: space-between;
+    }
+
+    .footer-links{
+        margin: 0px 20px 0px 20px;
+    }
+}
+
+@media screen and ( max-width: 771px ){
+    .contenedor-pared{
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px 0 25px 0;
+    }
+
+    .contenedor-mesadas{
+        flex-direction: column;
+        justify-content: center;
+        padding: 25px 0 25px 0;
+    }
+}
+
+@media screen and ( max-width: 730px ){
+    .contenedor-destacados{
+        margin: 50px 0px 50px 0px;
+    } 
+}
+
+@media screen and ( max-width: 600px ){
+    .hero h1{
+        font-size: 30px;
+    }
+    
+    .hero p{ 
+        font-size: 15px ;
+    }
+
+    .galeria{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .img-2{
+        grid-row: span 1;
+    }
+
+    .img-6{
+        grid-column: span 1;
+    }
+}
+
+@media screen and ( max-width: 515px ){
+    .hero{
+        background-position-x: 90%;
+    }
+
+    .footer-row{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and ( max-width: 426px ){
+    .destacados h2{
+        font-size: 30px;
+    }
+
+    
+    
+}
+
+@media screen and ( max-width: 400px ){
+    .hero{
+        background-position-x: 85%;
+    }
+
+    .hero h1{
+        font-size: 27px;
+        margin: 15px 15px 15px 15px
+    }
+    
+    .hero p{ 
+        font-size: 13px;
+        font-weight:600;
+        margin: 15px 15px 15px 15px
+    }
+}
