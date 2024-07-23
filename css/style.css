@@ -15,7 +15,7 @@ body{
 /*?---------HEADER---------*/
 
 header{
-    background-color: rgba(140, 146, 231, 0.692);
+    background-color: #2A3E48; 
 }
 
 header nav div div ul li a{
@@ -30,13 +30,15 @@ header nav div div ul li a{
 .d-flex{
     width: 300px;
     height: 50px;
-    background-color: white;
+    background-color: #607D8B;
     border-radius: 5px;
     position: relative;
 }
 
 .form-control{
     counter-reset: none;
+    background-color: #607D8B;
+    border: none;
 }
 
 .btn{
@@ -46,17 +48,12 @@ header nav div div ul li a{
 }
 
 
-
-
-
-
-
 /*?---------MAIN---------*/
 
 /*!----INDEX----*/
 
 main{
-    background-color:  rgb(0, 0, 0);
+    background-color: #607D8B;
 }
 
 .hero{
@@ -76,15 +73,15 @@ main{
 }
 
 .hero h1{
-    border: 2px solid rgba(122, 120, 120, 0.89);
-    background-color: rgba(140, 146, 231, 0.692);
+    border: 2px solid #2A3E48;
+    background-color: #607D8B;
     padding: 27px;
     font-size: 55px;
 }
 
 .hero p{
-    border: 1px solid rgba(122, 120, 120, 0.89);
-    background-color: rgba(140, 146, 231, 0.733);
+    border: 1px solid #2A3E48;
+    background-color: #607D8B;
     margin: 10px 0 20px 0px;  
     font-size: 19px;
     font-weight: 500;
@@ -95,8 +92,8 @@ main{
 }
 
 .destacados h2{
-    background-color: rgba(73, 73, 73, 0.651) ;
-    color: rgba(140, 146, 231, 0.836);
+    background-color: #2A3E48;
+    color: black;
     font-size: 40px;
     margin: 0 0 50px 0;
     padding: 10px;
@@ -110,27 +107,30 @@ main{
 }
 
 .contenedor-destacados div{
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid black;
     width: 250px;
     height: 340px;
-    background-color: rgba(122, 120, 120, 0.89);
+    background-color: black;
+    border-radius: 15px;
     margin: 10px 5px 10px 5px;
 }
 
 .contenedor-destacados div img{
-    width: 99%;
+    width: 93%;
     height: 250px;
 }
 
 .contenedor-destacados div h3{
+    color: #607D8B;
     font-size: 20px;
     margin-bottom: 18px;
 }
 
 .contenedor-destacados div a{
     text-decoration: none;
-    background-color: black;
-    color: rgb(161, 161, 161);
+    background-color: #2A3E48;
+    color: #607D8B;
+    border-radius: 10px;
     padding: 10px;
 }
 
@@ -220,90 +220,103 @@ main{
 
 /*!----PRODUCTOS----*/
 
-.contenedor-mesadas{
-    width: 76%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+.productos-mesadas{
+    text-align: center;
 }
 
+.contenedor-mesadas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
 
 .productos-mesadas h1{
-    border: 1px solid grey;
-    font-size: 25px;
+    border: 1px solid #607D8B;
+    background-color: #2A3E48;
+    color: black;
+    font-size: 35px;
     margin: 0 0 30px 0;
-    padding: 20px;
-    text-align: center;
+    padding: 30px;
 }
 
 .productos-mesadas article div{
-    border: 1px solid rgb(0, 0, 0);
-    width: 292px;
+    border: 1px solid black;
+    width: 250px;
     height: 340px;
-    text-align: center;
-    background-color: rgba(122, 120, 120, 0.89);
-    margin-bottom: 10px;
+    background-color: black;
+    border-radius: 15px;
+    margin: 10px 5px 10px 5px;
 }
 
 .productos-mesadas article div img{
-    width: 290px;
+    width: 93%;
     height: 250px;
 }
 
 .productos-mesadas article div h3{
+    color: #607D8B;
     font-size: 20px;
     margin-bottom: 18px;
 }
 
 .productos-mesadas article div a{
     text-decoration: none;
-    background-color: black;
-    color: rgb(161, 161, 161);
+    background-color: #2A3E48;
+    color: #607D8B;
+    border-radius: 10px;
     padding: 10px;
 }
 
 /**-----CAMBIO DE SECCION------*/
+
+.productos-pared{
+    text-align: center;
+}
+
+.productos-pared h2{  
+    border: 1px solid #607D8B;
+    background-color: #2A3E48;
+    color: black;
+    font-size: 35px;
+    margin: 0 0 30px 0;
+    padding: 30px;
+}
 
 .contenedor-pared{
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-}
-
-.productos-pared h2{  
-    border: 1px solid grey;  
-    font-size: 25px;
-    margin: 0 0 30px 0;
-    padding: 20px;
-    text-align: center;
+    padding: 30px;
 }
 
 .contenedor-pared div{
-    border: 1px solid rgb(0, 0, 0);
-    width: 292px;
+    border: 1px solid black;
+    width: 250px;
     height: 340px;
-    text-align: center;
-    background-color: rgba(122, 120, 120, 0.89);
-    margin-bottom: 10px;
+    background-color: black;
+    border-radius: 15px;
+    margin: 10px 5px 10px 5px;
 }
 
 .contenedor-pared div img{
-    width: 290px;
+    width: 93%;
     height: 250px;
 }
 
 .contenedor-pared div h3{
+    color: #607D8B;
     font-size: 20px;
     margin-bottom: 18px;
 }
 
 .contenedor-pared div a{
     text-decoration: none;
-    background-color: black;
-    color: rgb(161, 161, 161);
+    background-color: #2A3E48;
+    color: #607D8B;
+    border-radius: 10px;
     padding: 10px;
 }
 
@@ -410,55 +423,48 @@ main{
 /*?----FOOTER----*/
 
 footer{
-    background-color: #24262b;
-    padding: 80px 0;
+    background-color: #2A3E48;
+    padding: 40px 5px;
     text-align: center;
 }
 
 .contenedor-footer{
-    max-width: 100%;
-    margin: 0 auto;
+    list-style: none
 }
 
 .footer-row{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-}
-
-.footer-links{
-    width: 25%;
-    padding: 0 15px;
 }
 
 .footer-links h4{
     font-size: 20px;
-    color: white;
+    color: #607D8B;
     margin-bottom: 25px;
     font-weight: 500;
-    border-bottom: 2px solid #00c3ff;
+    border-bottom: 2px solid black;
     padding-bottom: 10px;
     display: inline-block;
 }
 
-.social-link a img{
-    width: 25px;
-    height: 25px;
-    margin-left: 7px;
+.footer-links ul li{
+    list-style: none;
 }
-
 
 .footer-links ul li a{
     font-size: 18px;
     text-decoration: none;
-    color: #BBBBBB;
+    color: #607D8B;
     display: block;
-    margin-bottom: 15px;
-    transition: all .3s ease;
+    margin: 8px;
 }
 
-
-
+.social-link a img{
+    width: 30px;
+    height: 30px;
+    margin: 7px;
+}
 
 /*!-----MEDIA QUERY-----*/
 
@@ -527,30 +533,6 @@ footer{
     }
 }
 
-@media screen and ( max-width: 795px ){
-    .footer-row{
-        justify-content: space-between;
-    }
-
-    .footer-links{
-        margin: 0px 20px 0px 20px;
-    }
-}
-
-@media screen and ( max-width: 771px ){
-    .contenedor-pared{
-    flex-direction: column;
-    justify-content: center;
-    padding: 25px 0 25px 0;
-    }
-
-    .contenedor-mesadas{
-        flex-direction: column;
-        justify-content: center;
-        padding: 25px 0 25px 0;
-    }
-}
-
 @media screen and ( max-width: 730px ){
     .contenedor-destacados{
         margin: 50px 0px 50px 0px;
@@ -577,12 +559,6 @@ footer{
     .img-6{
         grid-column: span 1;
     }
-}
-
-@media screen and ( max-width: 515px ){
-    .hero{
-        background-position-x: 90%;
-    }
 
     .footer-row{
         flex-direction: column;
@@ -590,13 +566,16 @@ footer{
     }
 }
 
+@media screen and ( max-width: 515px ){
+    .hero{
+        background-position-x: 90%;
+    }
+}
+
 @media screen and ( max-width: 426px ){
     .destacados h2{
         font-size: 30px;
     }
-
-    
-    
 }
 
 @media screen and ( max-width: 400px ){
