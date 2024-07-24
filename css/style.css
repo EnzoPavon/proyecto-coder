@@ -143,18 +143,6 @@ main{
     padding-bottom: 10px;
 }
 
-.galeria-item{
-    position: relative;
-}
-
-.galeria div h3{
-    position: absolute;
-    bottom: 0;
-    color: #c9cfdb;
-    background-color: #0000009f;
-    width: 100%;
-}
-
 .galeria div img{
     width: 100%;
     height: 100%;
@@ -174,48 +162,74 @@ main{
 
 .maison{
     text-align: center;
+    padding: 30px;
+    height: 45
+    0px;
 }
 
 .maison article{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .maison article img{
-    width: 55%;
-    height: 500px;
+    width: 600px;
+    height: 380px;
+    border-radius: 10px;
 }
 
 .maison article div h1{
     font-size: 45px;
+    font-weight: 900;
+    color: #607D8B;
     margin: 20px 0 30px 0;
+    border: 2px solid black;
+    background-color: #2A3E48;  
+    padding: 10px;
 }
 
 .maison article div p{
-    font-size: 24px;
-    margin: 25px 25px 25px 25px;
+    width: 600px;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px 10px 20px 40px;
+    background-color: #2a3e4873;
+    border-radius: 15px;
 }
 
+/**----CAMBIO DE SECCION----*/
+
+
 .portafolio h2{
-    background-color: rgb(0, 0, 0) ;
-    color: rgba(255, 255, 255, 0.404);
+    background-color: black;
+    color: #607D8B;
     font-size: 30px;
     padding: 10px;
     text-align: center;
 }
 
-.portafolio div{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+.grid-portafolio{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 400px;
+    gap: 5px;
+    padding: 0 5px 30px 5px;
 }
 
+.portafolio div div img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
 
-.portafolio div img{
-    width: 25%;
-    height: 400px;
+.port-img1{
+    grid-column: span 2;
+}
+
+.port-img8{
+    grid-column: span 2;
 }
 
 /*!----PRODUCTOS----*/
@@ -224,7 +238,7 @@ main{
     text-align: center;
 }
 
-.contenedor-mesadas{
+.productos-mesadas article{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -284,7 +298,7 @@ main{
     padding: 30px;
 }
 
-.contenedor-pared{
+.productos-pared article{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -292,7 +306,7 @@ main{
     padding: 30px;
 }
 
-.contenedor-pared div{
+.productos-pared article div{
     border: 1px solid black;
     width: 250px;
     height: 340px;
@@ -301,18 +315,18 @@ main{
     margin: 10px 5px 10px 5px;
 }
 
-.contenedor-pared div img{
+.productos-pared article div img{
     width: 93%;
     height: 250px;
 }
 
-.contenedor-pared div h3{
+.productos-pared article div h3{
     color: #607D8B;
     font-size: 20px;
     margin-bottom: 18px;
 }
 
-.contenedor-pared div a{
+.productos-pared article div a{
     text-decoration: none;
     background-color: #2A3E48;
     color: #607D8B;
@@ -472,12 +486,39 @@ footer{
     .hero{
         padding-left: 10px;
     }
+
+    .maison article img{
+        width: 500px;
+        height: 320px;
+    }
+    
+    .maison article div p{
+        width:500px
+    }
 }
 
 @media screen and ( max-width: 1300px ){
     .contenedor-destacados{
         margin: 20px 132px 20px 132px;
     } 
+}
+
+@media screen and ( max-width: 1270px ){
+    .maison article img{
+        width: 450px;
+        height: 300px;
+    }
+    
+    .maison article div p{
+        width:450px
+    }
+    
+    .maison article div h1{
+        font-size: 40px;
+        font-weight: 800;
+        margin: 0px 0 20px 0;
+    }
+
 }
 
 @media screen and ( max-width: 1225px ){
@@ -490,8 +531,19 @@ footer{
     .hero h1{
         font-size: 45px;
     }
-}
 
+    .grid-portafolio{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .port-img1{
+        grid-column: span 1;
+    }
+
+    .port-img8{
+        display: none;
+    }
+}
 
 @media screen and ( max-width: 1125px ){
     .contenedor-destacados{
@@ -507,6 +559,19 @@ footer{
     }
 }
 
+@media screen and ( max-width: 1075px ){
+    .grid-portafolio{
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 500px;
+    }
+
+    .port-img8{
+        display: grid;
+        grid-column: span 1;
+    }
+
+}
+
 @media screen and ( max-width: 991px ){
     .hero{
         justify-content: start ;
@@ -520,6 +585,36 @@ footer{
     
     .hero p{
         font-size: 16px;
+    }
+
+    .maison article{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .maison article img{
+        width: 650px;
+        height: 400px;
+        margin: 30px 0;
+    }
+
+    .maison article div h1{
+        font-size: 50px;
+        font-weight: 800;
+        margin: 20px 0 70px 0;
+    }
+    .maison article div p{
+        width:650px;
+        margin: 30px 0;
+    }
+}
+
+@media screen and ( max-width: 900px ){
+    .grid-portafolio{
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: auto;
+        padding-bottom: 10px;
     }
 }
 
@@ -537,6 +632,20 @@ footer{
     .contenedor-destacados{
         margin: 50px 0px 50px 0px;
     } 
+    .maison article img{
+        width: 550px;
+        height: 380px;
+        margin: 30px 0;
+    }
+
+    .maison article div h1{
+        font-size: 40px;
+        margin: 5px 0 70px 0;
+    }
+    .maison article div p{
+        width:550px;
+        margin: 0px 0;
+    }
 }
 
 @media screen and ( max-width: 600px ){
@@ -566,9 +675,38 @@ footer{
     }
 }
 
+@media screen and ( max-width: 575px ){
+    .maison article img{
+        width: 450px;
+        height: 300px;
+    }
+
+    .maison article div h1{
+        font-size: 35px;
+        margin: 5px 0 70px 0;
+    }
+    .maison article div p{
+        width: 340px;
+        margin: 0px 0;
+    }
+}
+
 @media screen and ( max-width: 515px ){
     .hero{
         background-position-x: 90%;
+    }
+}
+
+@media screen and ( max-width: 470px ){
+    .maison article img{
+        width: 330px;
+        height: 200px;
+    }
+
+    .maison article div p{
+        width: 300px;
+        padding: 20px;
+        margin-left: auto;
     }
 }
 
@@ -592,5 +730,10 @@ footer{
         font-size: 13px;
         font-weight:600;
         margin: 15px 15px 15px 15px
+    }
+
+    .maison article div h1{
+        font-size: 28px;
+        margin: 5px 0 30px 0;
     }
 }
