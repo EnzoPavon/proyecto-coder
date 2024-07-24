@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>Maison d´Art</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg fs-4">
@@ -51,18 +53,25 @@
             </div>
         </nav>
     </header>
-    <main class="form-page">
-        <section class="form-register">
-            <h1>Inicia Sesion</h1>
-            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
-            <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
-            <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
-            <input class="controls" type="password" name="correo" id="correo" required placeholder="Ingrese su Contraseña">
-            <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
-            <input class="botons" type="submit" value="Registrar">
-            <!--?----AGREGAR INFO HREF------>
-            <p><a href="#">¿Ya tengo Cuenta?</a></p>
-        </section>   
+    <main>
+        <div class="form-page">
+            <section class="registro-info">
+                <h1> ¿Todavia no sos parte?</h1>
+                <p> Accede a descuentos exclusivos y promociones semanales ingresando a nuestra comunidad </p>
+            </section>
+            <section class="form-register">
+                <h2>Registrate</h2>
+                <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+                <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+                <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+                <input class="controls" type="password" name="correo" id="correo" required
+                    placeholder="Ingrese su Contraseña">
+                <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+                <input class="botons" type="submit" value="Registrar">
+                <!--?----AGREGAR INFO HREF------>
+                <p><a href="#">¿Ya tengo Cuenta?</a></p>
+            </section>
+        </div>
     </main>
     <footer>
         <div class="contenedor-footer">
@@ -84,10 +93,14 @@
                 <div class="footer-links">
                     <h4>Siguenos</h4>
                     <div class="social-link">
-                        <a href="https://www.instagram.com" target="_blank"><img src="../img/instagram.png" alt="logo instagram"></a>
-                        <a href="https://www.facebook.com/" target="_blank"><img src="../img/facebook.png" alt="logo facebook"></a>
-                        <a href="https://web.whatsapp.com/" target="_blank"><img src="../img/whatsapp.png" alt="logo whatsapp"></a>
-                        <a href="https://www.linkedin.com/" target="_blank"><img src="../img/linkedin.png" alt="logo linkedin"></a>
+                        <a href="https://www.instagram.com" target="_blank"><img src="../img/instagram.png"
+                                alt="logo instagram"></a>
+                        <a href="https://www.facebook.com/" target="_blank"><img src="../img/facebook.png"
+                                alt="logo facebook"></a>
+                        <a href="https://web.whatsapp.com/" target="_blank"><img src="../img/whatsapp.png"
+                                alt="logo whatsapp"></a>
+                        <a href="https://www.linkedin.com/" target="_blank"><img src="../img/linkedin.png"
+                                alt="logo linkedin"></a>
                     </div>
                 </div>
             </div>
@@ -98,4 +111,5 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
