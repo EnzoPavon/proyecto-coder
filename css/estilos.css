@@ -115,3 +115,288 @@ header nav div div ul li a {
     grid-row: span 2; }
   .galeria .img-6 {
     grid-column: span 2; }
+
+footer {
+  background-color: #2A3E48;
+  padding: 40px 5px;
+  text-align: center; }
+  footer .contenedor-footer .footer-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    footer .contenedor-footer .footer-row div h4 {
+      font-size: 20px;
+      color: #607D8B;
+      margin-bottom: 25px;
+      font-weight: 500;
+      border-bottom: 2px solid black;
+      padding-bottom: 10px;
+      display: inline-block; }
+    footer .contenedor-footer .footer-row div ul {
+      text-align: start; }
+      footer .contenedor-footer .footer-row div ul li a {
+        font-size: 18px;
+        text-decoration: none;
+        color: #607D8B;
+        display: block; }
+    footer .contenedor-footer .footer-row div .social-link a img {
+      width: 30px;
+      height: 30px;
+      margin: 7px; }
+
+@media screen and (max-width: 1350px) {
+  .maison article img {
+    width: 500px;
+    height: 320px; }
+  .maison article div p {
+    width: 500px; }
+  .form-contacto {
+    width: 400px;
+    height: 550px;
+    margin-right: 50px; }
+  .showroom {
+    margin-right: 100px; }
+  .map {
+    width: 90%; } }
+
+@media screen and (max-width: 1300px) {
+  .contenedor-destacados {
+    margin: 20px 132px 20px 132px; } }
+
+@media screen and (max-width: 1270px) {
+  .hero {
+    justify-content: start;
+    align-items: start;
+    padding: 130px 0px 0px 40px; }
+  .hero h1 {
+    font-size: 45px; }
+  .maison article img {
+    width: 450px;
+    height: 300px; }
+  .maison article div p {
+    width: 450px; }
+  .maison article div h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0px 0 20px 0; } }
+
+@media screen and (max-width: 1225px) {
+  .hero {
+    justify-content: start;
+    align-items: start;
+    padding: 130px 0px 0px 40px; }
+  .hero h1 {
+    font-size: 45px; }
+  .grid-portafolio {
+    grid-template-columns: repeat(3, 1fr); }
+  .port-img1 {
+    grid-column: span 1; }
+  .port-img8 {
+    display: none; } }
+
+@media screen and (max-width: 1185px) {
+  .contacto-page {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 10px; }
+  .form-contacto {
+    width: 700px;
+    height: 550px;
+    margin: 70px 0px; }
+  .showroom h2 {
+    width: 100%;
+    margin: 0 0 0 50px;
+    padding: 0px; }
+  .showroom p {
+    font-size: 25px;
+    margin: 40px 0 0 90px; }
+  .map {
+    width: 700px;
+    height: 300px;
+    margin: 60px 0 40px 0; } }
+
+@media screen and (max-width: 1125px) {
+  .contenedor-destacados {
+    margin: 20px 80px 20px 80px; }
+  .galeria {
+    grid-template-columns: repeat(3, 1fr); }
+  .img-6 {
+    grid-column: span 3; } }
+
+@media screen and (max-width: 1075px) {
+  .grid-portafolio {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 500px; }
+  .port-img8 {
+    display: grid;
+    grid-column: span 1; } }
+
+@media screen and (max-width: 991px) {
+  .hero {
+    justify-content: start;
+    align-items: center;
+    padding: 70px 0px 0px 6px;
+    background-position: right; }
+  .hero h1 {
+    font-size: 40px; }
+  .hero p {
+    font-size: 16px; }
+  .maison article {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center; }
+  .maison article img {
+    width: 650px;
+    height: 400px;
+    margin: 30px 0; }
+  .maison article div h1 {
+    font-size: 50px;
+    font-weight: 800;
+    margin: 20px 0 70px 0; }
+  .maison article div p {
+    width: 650px;
+    margin: 30px 0; } }
+
+@media screen and (max-width: 900px) {
+  .grid-portafolio {
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: auto;
+    padding-bottom: 10px; } }
+
+@media screen and (max-width: 860px) {
+  .galeria {
+    grid-template-columns: repeat(2, 1fr); }
+  .img-6 {
+    grid-column: span 2; }
+  .form-register {
+    width: 550px;
+    height: 650px; }
+  .form-register h2 {
+    font-size: 30px;
+    margin-bottom: 25px; } }
+
+@media screen and (max-width: 730px) {
+  .contenedor-destacados {
+    margin: 50px 0px 50px 0px; }
+  .maison article img {
+    width: 550px;
+    height: 380px;
+    margin: 30px 0; }
+  .maison article div h1 {
+    font-size: 40px;
+    margin: 5px 0 70px 0; }
+  .maison article div p {
+    width: 550px;
+    margin: 0px 0; }
+  .form-contacto {
+    width: 575px;
+    height: 450px; }
+  .form-contacto input {
+    margin: 5px; }
+  .showroom h2 {
+    width: auto;
+    margin-left: 200px;
+    margin-right: 100px; }
+  .showroom p {
+    width: auto; }
+  .map {
+    width: 80%; } }
+
+@media screen and (max-width: 650px) {
+  .form-contacto {
+    width: 330px;
+    height: 450px; }
+  .showroom h2 {
+    width: 300px;
+    font-size: 35px; }
+  .showroom p {
+    width: auto;
+    margin-left: 150px;
+    margin-right: 50px; }
+  .form-register {
+    width: 480px; }
+  .registro-info h1 {
+    font-size: 30px; }
+  .registro-info p {
+    width: 500px; } }
+
+@media screen and (max-width: 600px) {
+  .hero div h1 {
+    font-size: 30px; }
+  .hero div p {
+    font-size: 15px; }
+  .galeria {
+    grid-template-columns: repeat(1, 1fr); }
+  .img-2 {
+    grid-row: span 1; }
+  .img-6 {
+    grid-column: span 1; }
+  .footer-row {
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (max-width: 575px) {
+  .maison article img {
+    width: 450px;
+    height: 300px; }
+  .maison article div h1 {
+    font-size: 35px;
+    margin: 5px 0 70px 0; }
+  .maison article div p {
+    width: 340px;
+    margin: 0px 0; } }
+
+@media screen and (max-width: 515px) {
+  .hero {
+    background-position-x: 90%; }
+  .showroom h2 {
+    width: auto;
+    margin-left: 100px;
+    margin-right: 10px; }
+  .showroom p {
+    width: 200px; }
+  .form-page {
+    height: auto; }
+  .form-register {
+    width: 320px;
+    height: 580px;
+    padding-bottom: 15px; }
+  .registro-info h1 {
+    font-size: 25px; }
+  .registro-info p {
+    width: 330px;
+    margin-top: 0px; }
+  .controls {
+    margin-top: 20px;
+    margin-bottom: 0; } }
+
+@media screen and (max-width: 470px) {
+  .maison article img {
+    width: 330px;
+    height: 200px; }
+  .maison article div p {
+    width: 300px;
+    padding: 20px;
+    margin-left: auto; } }
+
+@media screen and (max-width: 426px) {
+  .destacados h2 {
+    font-size: 30px; } }
+
+@media screen and (max-width: 400px) {
+  .hero {
+    background-position-x: 85%; }
+  .hero h1 {
+    font-size: 27px;
+    margin: 15px 15px 15px 15px; }
+  .hero p {
+    font-size: 13px;
+    font-weight: 600;
+    margin: 15px 15px 15px 15px; }
+  .maison article div h1 {
+    font-size: 28px;
+    margin: 5px 0 30px 0; } }

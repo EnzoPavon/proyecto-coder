@@ -1,0 +1,45 @@
+footer{
+    background-color: #2A3E48;
+    padding: 40px 5px;
+    text-align: center;
+    .contenedor-footer{
+        .footer-row{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            div{
+                h4{
+                    font-size: 20px;
+                    color: #607D8B;
+                    margin-bottom: 25px;
+                    font-weight: 500;
+                    border-bottom: 2px solid black;
+                    padding-bottom: 10px;
+                    display: inline-block;
+                }
+                ul{
+                    text-align: start;
+                    li{
+                        a{
+                            font-size: 18px;
+                            text-decoration: none;
+                            color: #607D8B;
+                            display: block;
+                        }
+                    }
+                }
+            }
+            div{
+                .social-link{
+                    a{
+                        img{
+                            width: 30px;
+                            height: 30px;
+                            margin: 7px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
