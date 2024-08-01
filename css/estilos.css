@@ -224,7 +224,7 @@ footer {
     margin: 20px 80px 20px 80px; }
   .galeria {
     grid-template-columns: repeat(3, 1fr); }
-  .img-6 {
+  .galeria .img-6 {
     grid-column: span 3; } }
 
 @media screen and (max-width: 1075px) {
@@ -270,7 +270,7 @@ footer {
 @media screen and (max-width: 860px) {
   .galeria {
     grid-template-columns: repeat(2, 1fr); }
-  .img-6 {
+  .galeria .img-6 {
     grid-column: span 2; }
   .form-register {
     width: 550px;
@@ -331,9 +331,9 @@ footer {
     font-size: 15px; }
   .galeria {
     grid-template-columns: repeat(1, 1fr); }
-  .img-2 {
+  .galeria .img-2 {
     grid-row: span 1; }
-  .img-6 {
+  .galeria .img-6 {
     grid-column: span 1; }
   .footer-row {
     flex-direction: column;
@@ -384,19 +384,17 @@ footer {
     margin-left: auto; } }
 
 @media screen and (max-width: 426px) {
-  .destacados h2 {
-    font-size: 30px; } }
-
-@media screen and (max-width: 400px) {
   .hero {
     background-position-x: 85%; }
-  .hero h1 {
+  .hero div h1 {
     font-size: 27px;
     margin: 15px 15px 15px 15px; }
-  .hero p {
+  .hero div p {
     font-size: 13px;
     font-weight: 600;
     margin: 15px 15px 15px 15px; }
+  .destacados h2 {
+    font-size: 30px; }
   .maison article div h1 {
     font-size: 28px;
     margin: 5px 0 30px 0; } }
