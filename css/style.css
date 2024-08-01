@@ -20,6 +20,7 @@ header {
 
 header nav div div ul li a {
     margin: 0px 8px 0px 8px;
+    color: white !important ;
 }
 
 .navbar-brand img {
