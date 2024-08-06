@@ -279,6 +279,62 @@ header nav div div ul li a {
 .map {
   grid-area: mapa; }
 
+.form-page {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; }
+  .form-page .registro-info h1 {
+    font-size: 45px;
+    font-weight: 900;
+    color: #607D8B;
+    margin: 70px 0 30px 0;
+    border: 2px solid black;
+    background-color: #2A3E48;
+    padding: 10px; }
+  .form-page .registro-info p {
+    width: 600px;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    margin: 40px 0 20px 0;
+    background-color: #2a3e4873;
+    border-radius: 15px; }
+  .form-page .form-register {
+    width: 750px;
+    height: 650px;
+    background: #2A3E48;
+    padding: 30px;
+    margin: 50px 0 45px 0;
+    border-radius: 10px;
+    color: #607D8B;
+    box-shadow: 7px 13px 37px #222222;
+    font-weight: 500;
+    font-size: 20px; }
+    .form-page .form-register h2 {
+      color: #607D8B;
+      font-size: 40px;
+      margin-bottom: 35px; }
+    .form-page .form-register .controls {
+      width: 100%;
+      background: #24303c;
+      padding: 10px;
+      border-radius: 4px;
+      margin-bottom: 40px;
+      border: 1px solid #607D8B;
+      font-size: 18px;
+      color: white; }
+    .form-page .form-register .botons {
+      width: 100%;
+      background: #607D8B;
+      border: none;
+      padding: 12px;
+      color: #2A3E48;
+      margin: 16px 0;
+      font-size: 20px;
+      font-weight: 700; }
+
 footer {
   background-color: #2A3E48;
   padding: 40px 5px;
@@ -430,12 +486,14 @@ footer {
     grid-column: span 1; }
   .grid-portafolio .port-img5 {
     grid-row: span 1; }
-  .form-register {
-    width: 550px;
-    height: 650px; }
-  .form-register h2 {
+  .form-page .form-register {
+    width: 80%;
+    height: auto; }
+  .form-page .form-register h2 {
     font-size: 30px;
-    margin-bottom: 25px; } }
+    margin-bottom: 25px; }
+  .form-page .form-register .controls {
+    margin-bottom: 20px; } }
 
 @media screen and (max-width: 730px) {
   .contenedor-destacados {
@@ -472,11 +530,9 @@ footer {
     width: auto;
     margin-left: 150px;
     margin-right: 50px; }
-  .form-register {
-    width: 480px; }
-  .registro-info h1 {
+  .form-page .registro-info h1 {
     font-size: 30px; }
-  .registro-info p {
+  .form-page .registro-info p {
     width: 500px; } }
 
 @media screen and (max-width: 600px) {
@@ -514,20 +570,10 @@ footer {
     margin-right: 10px; }
   .showroom p {
     width: 200px; }
-  .form-page {
-    height: auto; }
-  .form-register {
-    width: 320px;
-    height: 580px;
-    padding-bottom: 15px; }
-  .registro-info h1 {
+  .form-page .registro-info h1 {
     font-size: 25px; }
-  .registro-info p {
-    width: 330px;
-    margin-top: 0px; }
-  .controls {
-    margin-top: 20px;
-    margin-bottom: 0; } }
+  .form-page .registro-info p {
+    width: 330px; } }
 
 @media screen and (max-width: 470px) {
   .maison article img {

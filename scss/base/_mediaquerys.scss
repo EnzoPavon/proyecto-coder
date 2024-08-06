@@ -234,14 +234,18 @@
 
     //*----LOGIN----
 
-    .form-register {
-        width: 550px;
-        height: 650px;
+    .form-page .form-register {
+        width: 80%;
+        height: auto;
     }
 
-    .form-register h2 {
+    .form-page .form-register h2 {
         font-size: 30px;
         margin-bottom: 25px;
+    }
+
+    .form-page .form-register .controls{
+        margin-bottom: 20px;
     }
 }
 
@@ -315,15 +319,11 @@
 
     //*----LOGIN----
 
-    .form-register {
-        width: 480px;
-    }
-
-    .registro-info h1 {
+    .form-page .registro-info h1 {
         font-size: 30px;
     }
 
-    .registro-info p {
+    .form-page .registro-info p {
         width: 500px;
     }
 }
@@ -401,29 +401,15 @@
 
     //*----LOGIN----
 
-    .form-page {
-        height: auto;
-    }
-
-    .form-register {
-        width: 320px;
-        height: 580px;
-        padding-bottom: 15px;
-    }
-
-    .registro-info h1 {
+    .form-page .registro-info h1 {
         font-size: 25px;
     }
 
-    .registro-info p {
+    .form-page .registro-info p {
         width: 330px;
-        margin-top: 0px;
     }
 
-    .controls {
-        margin-top: 20px;
-        margin-bottom: 0;
-    }
+
 }
 
 @media screen and (max-width: 470px) {
