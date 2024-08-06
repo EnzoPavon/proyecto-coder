@@ -116,6 +116,53 @@ header nav div div ul li a {
   .galeria .img-6 {
     grid-column: span 2; }
 
+.productos-mesadas {
+  text-align: center; }
+  .productos-mesadas h1 {
+    border: 1px solid #607D8B;
+    background-color: #2A3E48;
+    color: black;
+    font-size: 35px;
+    margin: 0 0 30px 0;
+    padding: 30px; }
+
+.productos-mesadas article, .productos-pared article {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px; }
+  .productos-mesadas article div, .productos-pared article div {
+    border: 1px solid black;
+    width: 250px;
+    height: 340px;
+    background-color: black;
+    border-radius: 15px;
+    margin: 10px 5px 10px 5px; }
+    .productos-mesadas article div img, .productos-pared article div img {
+      width: 93%;
+      height: 250px; }
+    .productos-mesadas article div h3, .productos-pared article div h3 {
+      color: #607D8B;
+      font-size: 20px;
+      margin-bottom: 18px; }
+    .productos-mesadas article div a, .productos-pared article div a {
+      text-decoration: none;
+      background-color: #2A3E48;
+      color: #607D8B;
+      border-radius: 10px;
+      padding: 10px; }
+
+.productos-pared {
+  text-align: center; }
+  .productos-pared h2 {
+    border: 1px solid #607D8B;
+    background-color: #2A3E48;
+    color: black;
+    font-size: 35px;
+    margin: 0 0 30px 0;
+    padding: 30px; }
+
 .maison {
   text-align: center;
   padding: 30px;
