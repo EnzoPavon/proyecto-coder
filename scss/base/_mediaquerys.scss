@@ -15,14 +15,17 @@
 
     //!---CONTACTO----
 
-    .form-contacto {
-        width: 400px;
-        height: 550px;
+    .contacto-page .form-contacto {
+        width: 500px;
         margin-right: 50px;
     }
 
     .showroom {
         margin-right: 100px;
+    }
+
+    .showroom h2{
+        font-size: 30px;
     }
 
     .map {
@@ -69,6 +72,43 @@
         margin: 0px 0 20px 0;
     }
 
+    //!---CONTACTO----
+
+    .contacto-page {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        padding: 10px;
+    }
+    
+    .contacto-page .form-contacto {
+        width: 650px;
+        height: 550px;
+        margin: 70px 0px;
+    }
+    
+    .showroom h2 {
+        font-size: 45px;
+        width: 100%;
+        margin: 0 0 0 50px;
+        padding: 0px;
+    }
+
+    .showroom p {
+        font-size: 25px;
+        margin: 40px 0 0 90px;
+    }
+    
+    .map {
+        width: 700px;
+        height: 300px;
+        margin: 60px 0 40px 0;
+    }
+    
+
 }
 
 @media screen and (max-width: 1225px) {
@@ -97,62 +137,6 @@
 
     .grid-portafolio .port-img5{
         grid-row: span 2;
-    }
-}
-
-@media screen and (max-width: 1185px) {
-
-    //!---CONTACTO----
-
-    .contacto-page {
-        height: auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        margin: 0px;
-        padding: 10px;
-    }
-
-    .form-contacto {
-        width: 700px;
-        height: 550px;
-        margin: 70px 0px;
-    }
-
-    .showroom h2 {
-        width: 100%;
-        margin: 0 0 0 50px;
-        padding: 0px;
-    }
-
-    .showroom p {
-        font-size: 25px;
-        margin: 40px 0 0 90px;
-    }
-
-    .map {
-        width: 700px;
-        height: 300px;
-        margin: 60px 0 40px 0;
-    }
-
-}
-
-@media screen and (max-width: 1125px) {
-
-    //?----INDEX----
-
-    .contenedor-destacados {
-        margin: 20px 80px 20px 80px;
-    }
-
-    .galeria {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .galeria .img-6 {
-        grid-column: span 3;
     }
 }
 
@@ -236,7 +220,7 @@
         padding-bottom: 10px;
     }
 
-    .grid-portafolio .port-img1{
+    .portafolio .grid-portafolio .port-img1{
         grid-column: span 1;
     }
 
@@ -290,13 +274,8 @@
 
     //!---CONTACTO----
 
-    .form-contacto {
-        width: 575px;
-        height: 450px;
-    }
-
-    .form-contacto input {
-        margin: 5px;
+    .contacto-page .form-contacto {
+        width: 80%;
     }
 
     .showroom h2 {
