@@ -1,5 +1,5 @@
 footer{
-    background-color: #2A3E48;
+    background-color: $color-secundario;
     padding: 40px 5px;
     text-align: center;
     .contenedor-footer{
@@ -10,10 +10,10 @@ footer{
             div{
                 h4{
                     font-size: 20px;
-                    color: #607D8B;
+                    color: $color-terciario;
                     margin-bottom: 25px;
                     font-weight: 500;
-                    border-bottom: 2px solid black;
+                    border-bottom: 2px solid $color-terciario;
                     padding-bottom: 10px;
                     display: inline-block;
                 }
@@ -23,7 +23,7 @@ footer{
                         a{
                             font-size: 18px;
                             text-decoration: none;
-                            color: #607D8B;
+                            color: $color-principal;
                             display: block;
                         }
                     }

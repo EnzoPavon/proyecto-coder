@@ -8,26 +8,33 @@
     box-sizing: border-box;
 }
 
+//?----VARIABLES----
+$color-principal: #D8D583;
+$color-terciario: #d9ac2a;
+$color-secundario: #912c2c;
+
 body {
     font-family: "Roboto", sans-serif;
 }
 
 main {
-    background-color: #607D8B;
+    background-color:  $color-principal;
 }
+
+
 
 
 //! NAV BOOSTRAP
 
 header {
-    background-color: #2A3E48;
+    background-color: $color-secundario;
 }
 
 //* CAMBIAR COLOR TIPOGRAFIA
 
 header nav div div ul li a {
     margin: 0px 8px 0px 8px;
-    color: black !important ;
+    color: $color-principal !important;
 }
 
 .navbar-brand img {
@@ -38,14 +45,14 @@ header nav div div ul li a {
 .d-flex {
     width: 300px;
     height: 50px;
-    background-color: #607D8B;
+    background-color: $color-principal;
     border-radius: 5px;
     position: relative;
 }
 
 .form-control {
     counter-reset: none;
-    background-color: #607D8B;
+    background-color: $color-principal;
     border: none;
 }
 

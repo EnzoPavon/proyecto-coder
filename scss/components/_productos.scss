@@ -1,9 +1,9 @@
 .productos-mesadas{
     text-align: center;
     h1{
-        border: 1px solid #607D8B;
-        background-color: #2A3E48;
-        color: black;
+        border: 1px solid $color-secundario;
+        background-color: $color-terciario;
+        color: $color-secundario;
         font-size: 35px;
         margin: 0 0 30px 0;
         padding: 30px;
@@ -29,15 +29,16 @@
                 height: 250px;
             }
             h3{
-                color: #607D8B;
+                color: $color-terciario;
                 font-size: 20px;
                 margin-bottom: 18px;
             }
             a{
                 text-decoration: none;
-                background-color: #2A3E48;
-                color: #607D8B;
+                background-color: $color-principal;
+                color: $color-secundario;
                 border-radius: 10px;
+                font-weight: 700;
                 padding: 10px;
             }
 
@@ -48,9 +49,9 @@
 .productos-pared{
     text-align: center;
     h2{
-        border: 1px solid #607D8B;
-        background-color: #2A3E48;
-        color: black;
+        border: 1px solid $color-secundario;
+        background-color: $color-terciario;
+        color: $color-secundario;
         font-size: 35px;
         margin: 0 0 30px 0;
         padding: 30px;

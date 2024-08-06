@@ -12,20 +12,20 @@
     .form-contacto{
         width: 600px;
         height: 550px;
-        background: #2A3E48;
+        background: $color-secundario;
         padding: 20px;
         margin: 190px 0;
         border-radius: 10px;
-        box-shadow: 7px 13px 37px #2A3E48;
+        box-shadow: 7px 8px 16px $color-terciario;
         grid-area: contacto;
         h1{
-            color: #607D8B;
+            color: $color-terciario;
             font-size: 35px;
             margin: 17px 0;
         }
         .controls{
             width: 100%;
-            background: #607D8B;
+            background: $color-principal;
             border: none;
             padding: 12px;
             margin: 15px 0;
@@ -36,11 +36,12 @@
         }
         .botons{
             width: 100%;
-            background: #607D8B;
+            background: $color-terciario;
             border: none;
-            padding: 12px;
             font-size: 23px;
+            font-weight: 700;
             margin-top: 20px;
+            padding: 12px;
         }
 
     }
@@ -51,23 +52,23 @@
     h2{
         font-size: 45px;
         font-weight: 900;
-        color: #607D8B;
+        color: $color-secundario;
         margin: 20px 0 30px 0;
-        border: 2px solid black;
-        background-color: #2A3E48;
+        border: 2px solid $color-secundario;
+        background-color: $color-terciario;
         padding: 10px;
     }
     p{
         width: 600px;
-        color: black;
+        color: $color-terciario;
         font-size: 20px;
         padding: 15px;
         margin: 20px 10px 20px 40px;
-        background-color: #2a3e4873;
+        background-color: $color-secundario;
         border-radius: 15px;
         a{
             text-decoration: none;
-            color: black;
+            color: $color-principal;
             font-weight: 500;
         }
     }

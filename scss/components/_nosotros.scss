@@ -15,19 +15,20 @@
             h1{
                 font-size: 45px;
                 font-weight: 900;
-                color: #607D8B;
+                color: $color-terciario;
                 margin: 20px 0 30px 0;
-                border: 2px solid black;
-                background-color: #2A3E48;
+                border: 2px solid $color-terciario;
+                background-color: $color-secundario;
                 padding: 10px;
             }
             p{
                 width: 600px;
-                color: black;
+                color: $color-secundario;
                 font-size: 20px;
+                font-weight: 700;
                 padding: 15px;
                 margin: 20px 10px 20px 40px;
-                background-color: #2a3e4873;
+                background-color: $color-terciario;
                 border-radius: 15px;
             }
 
@@ -38,9 +39,10 @@
 
 .portafolio{
     h2{
-        background-color: black;
-        color: #607D8B;
-        font-size: 30px;
+        background-color: $color-terciario;
+        color: $color-secundario;
+        font-size: 35px;
+        font-weight: 700;
         padding: 10px;
         text-align: center;
     }

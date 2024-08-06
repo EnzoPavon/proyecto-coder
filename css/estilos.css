@@ -10,14 +10,14 @@ body {
   font-family: "Roboto", sans-serif; }
 
 main {
-  background-color: #607D8B; }
+  background-color: #D8D583; }
 
 header {
-  background-color: #2A3E48; }
+  background-color: #912c2c; }
 
 header nav div div ul li a {
   margin: 0px 8px 0px 8px;
-  color: black !important; }
+  color: #D8D583 !important; }
 
 .navbar-brand img {
   width: 100px;
@@ -26,13 +26,13 @@ header nav div div ul li a {
 .d-flex {
   width: 300px;
   height: 50px;
-  background-color: #607D8B;
+  background-color: #D8D583;
   border-radius: 5px;
   position: relative; }
 
 .form-control {
   counter-reset: none;
-  background-color: #607D8B;
+  background-color: #D8D583;
   border: none; }
 
 .btn {
@@ -43,7 +43,7 @@ header nav div div ul li a {
 .hero {
   width: 100%;
   height: calc(100vh - 56px);
-  color: white;
+  color: #912c2c;
   text-align: center;
   background-image: url(../img/griferia-artesanal.jpg);
   background-position: center;
@@ -55,22 +55,22 @@ header nav div div ul li a {
   align-items: start;
   padding-left: 40px; }
   .hero div h1 {
-    border: 2px solid #2A3E48;
-    background-color: #607D8B;
+    border: 2px solid #912c2c;
+    background-color: #D8D583;
     padding: 27px;
     font-size: 55px; }
   .hero div p {
-    border: 1px solid #2A3E48;
-    background-color: #607D8B;
+    border: 2px solid #912c2c;
+    background-color: #D8D583;
     margin: 10px 0 20px 0px;
     font-size: 19px;
-    font-weight: 500; }
+    font-weight: 600; }
 
 .destacados {
   text-align: center; }
   .destacados h2 {
-    background-color: #2A3E48;
-    color: black;
+    color: #d9ac2a;
+    background-color: #912c2c;
     font-size: 40px;
     margin: 0 0 50px 0;
     padding: 10px; }
@@ -90,13 +90,14 @@ header nav div div ul li a {
         width: 93%;
         height: 250px; }
       .destacados article div h3 {
-        color: #607D8B;
+        color: #d9ac2a;
         font-size: 20px;
         margin-bottom: 18px; }
       .destacados article div a {
         text-decoration: none;
-        background-color: #2A3E48;
-        color: #607D8B;
+        background-color: #D8D583;
+        color: #912c2c;
+        font-weight: 700;
         border-radius: 10px;
         padding: 10px; }
 
@@ -119,9 +120,9 @@ header nav div div ul li a {
 .productos-mesadas {
   text-align: center; }
   .productos-mesadas h1 {
-    border: 1px solid #607D8B;
-    background-color: #2A3E48;
-    color: black;
+    border: 1px solid #912c2c;
+    background-color: #d9ac2a;
+    color: #912c2c;
     font-size: 35px;
     margin: 0 0 30px 0;
     padding: 30px; }
@@ -143,22 +144,23 @@ header nav div div ul li a {
       width: 93%;
       height: 250px; }
     .productos-mesadas article div h3, .productos-pared article div h3 {
-      color: #607D8B;
+      color: #d9ac2a;
       font-size: 20px;
       margin-bottom: 18px; }
     .productos-mesadas article div a, .productos-pared article div a {
       text-decoration: none;
-      background-color: #2A3E48;
-      color: #607D8B;
+      background-color: #D8D583;
+      color: #912c2c;
       border-radius: 10px;
+      font-weight: 700;
       padding: 10px; }
 
 .productos-pared {
   text-align: center; }
   .productos-pared h2 {
-    border: 1px solid #607D8B;
-    background-color: #2A3E48;
-    color: black;
+    border: 1px solid #912c2c;
+    background-color: #d9ac2a;
+    color: #912c2c;
     font-size: 35px;
     margin: 0 0 30px 0;
     padding: 30px; }
@@ -178,24 +180,26 @@ header nav div div ul li a {
     .maison article div h1 {
       font-size: 45px;
       font-weight: 900;
-      color: #607D8B;
+      color: #d9ac2a;
       margin: 20px 0 30px 0;
-      border: 2px solid black;
-      background-color: #2A3E48;
+      border: 2px solid #d9ac2a;
+      background-color: #912c2c;
       padding: 10px; }
     .maison article div p {
       width: 600px;
-      color: black;
+      color: #912c2c;
       font-size: 20px;
+      font-weight: 700;
       padding: 15px;
       margin: 20px 10px 20px 40px;
-      background-color: #2a3e4873;
+      background-color: #d9ac2a;
       border-radius: 15px; }
 
 .portafolio h2 {
-  background-color: black;
-  color: #607D8B;
-  font-size: 30px;
+  background-color: #d9ac2a;
+  color: #912c2c;
+  font-size: 35px;
+  font-weight: 700;
   padding: 10px;
   text-align: center; }
 
@@ -226,19 +230,19 @@ header nav div div ul li a {
   .contacto-page .form-contacto {
     width: 600px;
     height: 550px;
-    background: #2A3E48;
+    background: #912c2c;
     padding: 20px;
     margin: 190px 0;
     border-radius: 10px;
-    box-shadow: 7px 13px 37px #2A3E48;
+    box-shadow: 7px 8px 16px #d9ac2a;
     grid-area: contacto; }
     .contacto-page .form-contacto h1 {
-      color: #607D8B;
+      color: #d9ac2a;
       font-size: 35px;
       margin: 17px 0; }
     .contacto-page .form-contacto .controls {
       width: 100%;
-      background: #607D8B;
+      background: #D8D583;
       border: none;
       padding: 12px;
       margin: 15px 0;
@@ -247,33 +251,34 @@ header nav div div ul li a {
         color: black; }
     .contacto-page .form-contacto .botons {
       width: 100%;
-      background: #607D8B;
+      background: #d9ac2a;
       border: none;
-      padding: 12px;
       font-size: 23px;
-      margin-top: 20px; }
+      font-weight: 700;
+      margin-top: 20px;
+      padding: 12px; }
 
 .showroom {
   grid-area: showroom; }
   .showroom h2 {
     font-size: 45px;
     font-weight: 900;
-    color: #607D8B;
+    color: #912c2c;
     margin: 20px 0 30px 0;
-    border: 2px solid black;
-    background-color: #2A3E48;
+    border: 2px solid #912c2c;
+    background-color: #d9ac2a;
     padding: 10px; }
   .showroom p {
     width: 600px;
-    color: black;
+    color: #d9ac2a;
     font-size: 20px;
     padding: 15px;
     margin: 20px 10px 20px 40px;
-    background-color: #2a3e4873;
+    background-color: #912c2c;
     border-radius: 15px; }
     .showroom p a {
       text-decoration: none;
-      color: black;
+      color: #D8D583;
       font-weight: 500; }
 
 .map {
@@ -288,55 +293,57 @@ header nav div div ul li a {
   .form-page .registro-info h1 {
     font-size: 45px;
     font-weight: 900;
-    color: #607D8B;
+    color: #912c2c;
     margin: 70px 0 30px 0;
-    border: 2px solid black;
-    background-color: #2A3E48;
+    border: 2px solid #912c2c;
+    background-color: #d9ac2a;
     padding: 10px; }
   .form-page .registro-info p {
     width: 600px;
-    color: black;
+    color: #912c2c;
     font-size: 20px;
+    font-weight: 700;
     padding: 15px;
     margin: 40px 0 20px 0;
-    background-color: #2a3e4873;
+    background-color: #d9ac2a;
     border-radius: 15px; }
   .form-page .form-register {
     width: 750px;
     height: 650px;
-    background: #2A3E48;
+    background: #912c2c;
     padding: 30px;
     margin: 50px 0 45px 0;
     border-radius: 10px;
-    color: #607D8B;
+    color: #d9ac2a;
     box-shadow: 7px 13px 37px #222222;
     font-weight: 500;
     font-size: 20px; }
     .form-page .form-register h2 {
-      color: #607D8B;
+      color: #d9ac2a;
       font-size: 40px;
       margin-bottom: 35px; }
     .form-page .form-register .controls {
       width: 100%;
-      background: #24303c;
+      background: #D8D583;
       padding: 10px;
       border-radius: 4px;
       margin-bottom: 40px;
-      border: 1px solid #607D8B;
-      font-size: 18px;
-      color: white; }
+      border: 1px solid #d9ac2a;
+      font-size: 18px; }
+      .form-page .form-register .controls::placeholder {
+        color: black; }
     .form-page .form-register .botons {
       width: 100%;
-      background: #607D8B;
+      background: #d9ac2a;
       border: none;
       padding: 12px;
-      color: #2A3E48;
+      color: #912c2c;
       margin: 16px 0;
       font-size: 20px;
       font-weight: 700; }
 
 footer {
-  background-color: #2A3E48;
+  background-color: #912c2c;
   padding: 40px 5px;
   text-align: center; }
   footer .contenedor-footer .footer-row {
@@ -345,10 +352,10 @@ footer {
     flex-wrap: wrap; }
     footer .contenedor-footer .footer-row div h4 {
       font-size: 20px;
-      color: #607D8B;
+      color: #d9ac2a;
       margin-bottom: 25px;
       font-weight: 500;
-      border-bottom: 2px solid black;
+      border-bottom: 2px solid #d9ac2a;
       padding-bottom: 10px;
       display: inline-block; }
     footer .contenedor-footer .footer-row div ul {
@@ -356,7 +363,7 @@ footer {
       footer .contenedor-footer .footer-row div ul li a {
         font-size: 18px;
         text-decoration: none;
-        color: #607D8B;
+        color: #D8D583;
         display: block; }
     footer .contenedor-footer .footer-row div .social-link a img {
       width: 30px;
