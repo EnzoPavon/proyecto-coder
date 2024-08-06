@@ -87,16 +87,16 @@
 
     //*---NOSOTROS---- 
 
-    .grid-portafolio {
+    .portafolio .grid-portafolio{
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .port-img1 {
-        grid-column: span 1;
+    .grid-portafolio .port-img4{
+        grid-column: span 2;
     }
 
-    .port-img8 {
-        display: none;
+    .grid-portafolio .port-img5{
+        grid-row: span 2;
     }
 }
 
@@ -160,14 +160,13 @@
 
     //*---NOSOTROS---- 
 
-    .grid-portafolio {
+    .portafolio .grid-portafolio {
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 500px;
     }
 
-    .port-img8 {
-        display: grid;
-        grid-column: span 1;
+    .grid-portafolio .port-img8{
+        display: none;
     }
 
 }
@@ -217,17 +216,6 @@
     }
 }
 
-@media screen and (max-width: 900px) {
-
-    //*---NOSOTROS---- 
-
-    .grid-portafolio {
-        grid-template-columns: repeat(1, 1fr);
-        grid-auto-rows: auto;
-        padding-bottom: 10px;
-    }
-}
-
 @media screen and (max-width: 860px) {
 
     //?----INDEX----
@@ -238,6 +226,26 @@
 
     .galeria .img-6 {
         grid-column: span 2;
+    }
+
+    //*---NOSOTROS---- 
+
+    .portafolio .grid-portafolio {
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: auto;
+        padding-bottom: 10px;
+    }
+
+    .grid-portafolio .port-img1{
+        grid-column: span 1;
+    }
+
+    .grid-portafolio .port-img4{
+        grid-column: span 1;
+    }
+
+    .grid-portafolio .port-img5{
+        grid-row: span 1;
     }
 
     //*----LOGIN----
@@ -252,6 +260,7 @@
         margin-bottom: 25px;
     }
 }
+
 
 @media screen and (max-width: 730px) {
 

@@ -1,0 +1,67 @@
+.maison{
+    text-align: center;
+    padding: 30px;
+    height: 45 0px;
+    article{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        img{
+            width: 600px;
+            height: 380px;
+            border-radius: 10px;
+        }
+        div{
+            h1{
+                font-size: 45px;
+                font-weight: 900;
+                color: #607D8B;
+                margin: 20px 0 30px 0;
+                border: 2px solid black;
+                background-color: #2A3E48;
+                padding: 10px;
+            }
+            p{
+                width: 600px;
+                color: black;
+                font-size: 20px;
+                padding: 15px;
+                margin: 20px 10px 20px 40px;
+                background-color: #2a3e4873;
+                border-radius: 15px;
+            }
+
+        }
+
+    }
+}
+
+.portafolio{
+    h2{
+        background-color: black;
+        color: #607D8B;
+        font-size: 30px;
+        padding: 10px;
+        text-align: center;
+    }
+    .grid-portafolio{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 400px;
+        gap: 5px;
+        padding: 0 5px 30px 5px;
+        div{
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .port-img1{
+            grid-column: span 2;
+        }
+        .port-img8{
+            grid-column: span 2;
+        }
+    }
+}
