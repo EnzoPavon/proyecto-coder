@@ -1,10 +1,30 @@
-/**----FONTS----*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-/**----RESET----*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+.destacados article, .productos-mesadas article, .productos-pared article {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.destacados article div, .productos-mesadas article div, .productos-pared article div {
+  border: 1px solid black;
+  width: 250px;
+  height: 340px;
+  background-color: black;
+  border-radius: 15px;
+  margin: 10px 5px 10px 5px; }
+
+.destacados article div a, .productos-mesadas article div a, .productos-pared article div a {
+  text-decoration: none;
+  background-color: #D8D583;
+  color: #912c2c;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 10px; }
 
 body {
   font-family: "Roboto", sans-serif; }
@@ -74,32 +94,13 @@ header nav div div ul li a {
     font-size: 40px;
     margin: 0 0 50px 0;
     padding: 10px; }
-  .destacados article {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap; }
-    .destacados article div {
-      border: 1px solid black;
-      width: 250px;
-      height: 340px;
-      background-color: black;
-      border-radius: 15px;
-      margin: 10px 5px 10px 5px; }
-      .destacados article div img {
-        width: 93%;
-        height: 250px; }
-      .destacados article div h3 {
-        color: #d9ac2a;
-        font-size: 20px;
-        margin-bottom: 18px; }
-      .destacados article div a {
-        text-decoration: none;
-        background-color: #D8D583;
-        color: #912c2c;
-        font-weight: 700;
-        border-radius: 10px;
-        padding: 10px; }
+  .destacados article div img {
+    width: 93%;
+    height: 250px; }
+  .destacados article div h3 {
+    color: #d9ac2a;
+    font-size: 20px;
+    margin-bottom: 18px; }
 
 .galeria {
   display: grid;
@@ -127,33 +128,14 @@ header nav div div ul li a {
     margin: 0 0 30px 0;
     padding: 30px; }
 
-.productos-mesadas article, .productos-pared article {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 30px; }
-  .productos-mesadas article div, .productos-pared article div {
-    border: 1px solid black;
-    width: 250px;
-    height: 340px;
-    background-color: black;
-    border-radius: 15px;
-    margin: 10px 5px 10px 5px; }
-    .productos-mesadas article div img, .productos-pared article div img {
-      width: 93%;
-      height: 250px; }
-    .productos-mesadas article div h3, .productos-pared article div h3 {
-      color: #d9ac2a;
-      font-size: 20px;
-      margin-bottom: 18px; }
-    .productos-mesadas article div a, .productos-pared article div a {
-      text-decoration: none;
-      background-color: #D8D583;
-      color: #912c2c;
-      border-radius: 10px;
-      font-weight: 700;
-      padding: 10px; }
+.productos-mesadas article div img, .productos-pared article div img {
+  width: 93%;
+  height: 250px; }
+
+.productos-mesadas article div h3, .productos-pared article div h3 {
+  color: #d9ac2a;
+  font-size: 20px;
+  margin-bottom: 18px; }
 
 .productos-pared {
   text-align: center; }

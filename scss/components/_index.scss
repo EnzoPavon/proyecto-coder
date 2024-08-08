@@ -40,17 +40,9 @@
         padding: 10px;
     }
     article{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
+        @extend %productos;
         div{
-            border: 1px solid black;
-            width: 250px;
-            height: 340px;
-            background-color: black;
-            border-radius: 15px;
-            margin: 10px 5px 10px 5px;    
+            @extend %productos-contenedor;
             img{
                 width: 93%;
                 height: 250px;
@@ -61,12 +53,7 @@
                 margin-bottom: 18px;
             }
             a{
-                text-decoration: none;
-                background-color: $color-principal;
-                color: $color-secundario;
-                font-weight: 700;
-                border-radius: 10px;
-                padding: 10px;
+                @extend %productos-boton;
             }
         }
     }
