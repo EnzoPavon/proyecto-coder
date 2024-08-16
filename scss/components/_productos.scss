@@ -15,6 +15,9 @@
         @extend %productos;
         div{
             @extend %productos-contenedor;
+            &:hover{
+                transform: scale(1.1);
+            }
             img{
                 width: 93%;
                 height: 250px;
@@ -26,6 +29,10 @@
             }
             a{
                 @extend %productos-boton;
+                    &:hover{
+                    background-color: $color-secundario;
+                    color: $color-principal;
+                }
             }
         }
     }

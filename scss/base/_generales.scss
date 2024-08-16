@@ -35,7 +35,8 @@ $color-secundario: #ffffff;
     height: 340px;
     background-color: black;
     border-radius: 15px;
-    margin: 10px 5px 10px 5px
+    margin: 10px 5px 20px 5px;
+    transition: 0.3s;
 }
 
 %productos-boton{
@@ -45,6 +46,8 @@ $color-secundario: #ffffff;
     font-weight: 700;
     border-radius: 10px;
     padding: 10px;
+    transition: 0.5s
+
 }
 
 
@@ -70,6 +73,11 @@ header {
 header nav div div ul li a {
     margin: 0px 5px 0px 5px;
     color: $color-principal !important;
+    transition: 0.5s !important;
+    &:hover{
+        color: rgb(105, 123, 230) !important;
+        transform: scale(1.1);
+    }
 }
 
 .navbar-brand img {

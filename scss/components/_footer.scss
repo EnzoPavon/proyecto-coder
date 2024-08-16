@@ -16,6 +16,11 @@ footer{
                     border-bottom: 2px solid $color-terciario;
                     padding-bottom: 10px;
                     display: inline-block;
+                    transition: 0.5s;
+                    &:hover{
+                        transform: scale(1.1);
+                        border-bottom: 2px solid $color-principal;
+                    }
                 }
                 ul{
                     text-align: start;
@@ -25,6 +30,10 @@ footer{
                             text-decoration: none;
                             color: $color-principal;
                             display: block;
+                            transition: 0.3s;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
                         }
                     }
                 }
@@ -36,6 +45,10 @@ footer{
                             width: 30px;
                             height: 30px;
                             margin: 7px;
+                            transition: 0.3s;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
                         }
                     }
                 }
