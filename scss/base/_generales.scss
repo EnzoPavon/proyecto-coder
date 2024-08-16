@@ -1,6 +1,8 @@
 //*----FONTS----
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
 
 //*----RESET----
 
@@ -10,11 +12,13 @@
     box-sizing: border-box;
 }
 
+
 //?----VARIABLES----
 
-$color-principal: #D8D583;
-$color-terciario: #d9ac2a;
-$color-secundario: #912c2c;
+$color-principal: #302424;
+$color-terciario: #ccc7bf;
+$color-secundario: #ffffff;
+
 
 //!----EXTENDS----
 
@@ -44,17 +48,17 @@ $color-secundario: #912c2c;
 }
 
 
-//*----GENERALES----
+
+
+//?----GENERALES----
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Source Sans 3", sans-serif;
 }
 
 main {
-    background-color:  $color-principal;
+    background-color:  $color-secundario;
 }
-
-
 
 
 //! NAV BOOSTRAP
@@ -76,14 +80,14 @@ header nav div div ul li a {
 .d-flex {
     width: 300px;
     height: 50px;
-    background-color: $color-principal;
+    background-color: $color-terciario;
     border-radius: 5px;
     position: relative;
 }
 
 .form-control {
     counter-reset: none;
-    background-color: $color-principal;
+    background-color: $color-terciario;
     border: none;
 }
 

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -20,24 +20,24 @@
 
 .destacados article div a, .productos-mesadas article div a, .productos-pared article div a {
   text-decoration: none;
-  background-color: #D8D583;
-  color: #912c2c;
+  background-color: #302424;
+  color: #ffffff;
   font-weight: 700;
   border-radius: 10px;
   padding: 10px; }
 
 body {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Source Sans 3", sans-serif; }
 
 main {
-  background-color: #D8D583; }
+  background-color: #ffffff; }
 
 header {
-  background-color: #912c2c; }
+  background-color: #ffffff; }
 
 header nav div div ul li a {
   margin: 0px 5px 0px 5px;
-  color: #D8D583 !important; }
+  color: #302424 !important; }
 
 .navbar-brand img {
   width: 100px;
@@ -46,13 +46,13 @@ header nav div div ul li a {
 .d-flex {
   width: 300px;
   height: 50px;
-  background-color: #D8D583;
+  background-color: #ccc7bf;
   border-radius: 5px;
   position: relative; }
 
 .form-control {
   counter-reset: none;
-  background-color: #D8D583;
+  background-color: #ccc7bf;
   border: none; }
 
 .btn {
@@ -63,7 +63,7 @@ header nav div div ul li a {
 .hero {
   width: 100%;
   height: calc(100vh - 56px);
-  color: #912c2c;
+  color: #ffffff;
   text-align: center;
   background-image: url(../img/griferia-artesanal.jpg);
   background-position: center;
@@ -75,22 +75,25 @@ header nav div div ul li a {
   align-items: start;
   padding-left: 40px; }
   .hero div h1 {
-    border: 2px solid #912c2c;
-    background-color: #D8D583;
+    border: 2px solid #302424;
+    background-color: #ffffff;
+    color: #302424;
     padding: 27px;
-    font-size: 55px; }
+    font-size: 60px; }
   .hero div p {
-    border: 2px solid #912c2c;
-    background-color: #D8D583;
+    border: 2px solid #302424;
+    background-color: #ffffff;
+    color: #302424;
     margin: 10px 0 20px 0px;
-    font-size: 19px;
-    font-weight: 600; }
+    font-size: 23px;
+    font-weight: 600;
+    padding: 7px; }
 
 .destacados {
   text-align: center; }
   .destacados h2 {
-    color: #d9ac2a;
-    background-color: #912c2c;
+    color: #302424;
+    background-color: #ffffff;
     font-size: 40px;
     margin: 0 0 50px 0;
     padding: 10px; }
@@ -98,7 +101,7 @@ header nav div div ul li a {
     width: 93%;
     height: 250px; }
   .destacados article div h3 {
-    color: #d9ac2a;
+    color: #ffffff;
     font-size: 20px;
     margin-bottom: 18px; }
 
@@ -121,9 +124,9 @@ header nav div div ul li a {
 .productos-mesadas {
   text-align: center; }
   .productos-mesadas h1 {
-    border: 1px solid #912c2c;
-    background-color: #d9ac2a;
-    color: #912c2c;
+    border: 1px solid #ffffff;
+    background-color: #302424;
+    color: #ffffff;
     font-size: 35px;
     margin: 0 0 30px 0;
     padding: 30px; }
@@ -133,16 +136,16 @@ header nav div div ul li a {
   height: 250px; }
 
 .productos-mesadas article div h3, .productos-pared article div h3 {
-  color: #d9ac2a;
+  color: #ffffff;
   font-size: 20px;
   margin-bottom: 18px; }
 
 .productos-pared {
   text-align: center; }
   .productos-pared h2 {
-    border: 1px solid #912c2c;
-    background-color: #d9ac2a;
-    color: #912c2c;
+    border: 1px solid #ffffff;
+    background-color: #302424;
+    color: #ffffff;
     font-size: 35px;
     margin: 0 0 30px 0;
     padding: 30px; }
@@ -162,24 +165,24 @@ header nav div div ul li a {
     .maison article div h1 {
       font-size: 45px;
       font-weight: 900;
-      color: #d9ac2a;
+      color: #302424;
       margin: 20px 0 30px 0;
-      border: 2px solid #d9ac2a;
-      background-color: #912c2c;
+      border: 2px solid #302424;
+      background-color: #ffffff;
       padding: 10px; }
     .maison article div p {
       width: 600px;
-      color: #912c2c;
+      color: #302424;
       font-size: 20px;
       font-weight: 700;
       padding: 15px;
       margin: 20px 10px 20px 40px;
-      background-color: #d9ac2a;
+      background-color: #ccc7bf;
       border-radius: 15px; }
 
 .portafolio h2 {
-  background-color: #d9ac2a;
-  color: #912c2c;
+  background-color: #302424;
+  color: #ffffff;
   font-size: 35px;
   font-weight: 700;
   padding: 10px;
@@ -212,28 +215,29 @@ header nav div div ul li a {
   .contacto-page .form-contacto {
     width: 600px;
     height: 550px;
-    background: #912c2c;
+    background: #ccc7bf;
     padding: 20px;
     margin: 190px 0;
     border-radius: 10px;
-    box-shadow: 7px 8px 16px #d9ac2a;
+    box-shadow: 7px 8px 16px #ccc7bf;
     grid-area: contacto; }
     .contacto-page .form-contacto h1 {
-      color: #d9ac2a;
+      color: #302424;
       font-size: 35px;
       margin: 17px 0; }
     .contacto-page .form-contacto .controls {
       width: 100%;
-      background: #D8D583;
+      background: #ffffff;
       border: none;
       padding: 12px;
       margin: 15px 0;
       font-size: 23px; }
       .contacto-page .form-contacto .controls::placeholder {
-        color: black; }
+        color: #302424; }
     .contacto-page .form-contacto .botons {
       width: 100%;
-      background: #d9ac2a;
+      color: #ffffff;
+      background: #302424;
       border: none;
       font-size: 23px;
       font-weight: 700;
@@ -245,22 +249,22 @@ header nav div div ul li a {
   .showroom h2 {
     font-size: 45px;
     font-weight: 900;
-    color: #912c2c;
+    color: #302424;
     margin: 20px 0 30px 0;
-    border: 2px solid #912c2c;
-    background-color: #d9ac2a;
+    border: 2px solid #302424;
+    background-color: #ffffff;
     padding: 10px; }
   .showroom p {
     width: 600px;
-    color: #d9ac2a;
+    color: #302424;
     font-size: 20px;
     padding: 15px;
     margin: 20px 10px 20px 40px;
-    background-color: #912c2c;
+    background-color: #ccc7bf;
     border-radius: 15px; }
     .showroom p a {
       text-decoration: none;
-      color: #D8D583;
+      color: #302424;
       font-weight: 500; }
 
 .map {
@@ -275,57 +279,56 @@ header nav div div ul li a {
   .form-page .registro-info h1 {
     font-size: 45px;
     font-weight: 900;
-    color: #912c2c;
+    color: #302424;
     margin: 70px 0 30px 0;
-    border: 2px solid #912c2c;
-    background-color: #d9ac2a;
+    border: 2px solid #302424;
+    background-color: #ffffff;
     padding: 10px; }
   .form-page .registro-info p {
     width: 600px;
-    color: #912c2c;
+    color: #302424;
     font-size: 20px;
     font-weight: 700;
     padding: 15px;
     margin: 40px 0 20px 0;
-    background-color: #d9ac2a;
+    background-color: #ccc7bf;
     border-radius: 15px; }
   .form-page .form-register {
     width: 750px;
     height: 650px;
-    background: #912c2c;
+    background: #ccc7bf;
     padding: 30px;
     margin: 50px 0 45px 0;
     border-radius: 10px;
-    color: #d9ac2a;
     box-shadow: 7px 13px 37px #222222;
     font-weight: 500;
     font-size: 20px; }
     .form-page .form-register h2 {
-      color: #d9ac2a;
+      color: #302424;
       font-size: 40px;
       margin-bottom: 35px; }
     .form-page .form-register .controls {
       width: 100%;
-      background: #D8D583;
+      background: #ffffff;
       padding: 10px;
       border-radius: 4px;
       margin-bottom: 40px;
-      border: 1px solid #d9ac2a;
+      border: 1px solid #302424;
       font-size: 18px; }
       .form-page .form-register .controls::placeholder {
-        color: black; }
+        color: #302424; }
     .form-page .form-register .botons {
       width: 100%;
-      background: #d9ac2a;
+      background: #302424;
       border: none;
       padding: 12px;
-      color: #912c2c;
+      color: #ffffff;
       margin: 16px 0;
       font-size: 20px;
       font-weight: 700; }
 
 footer {
-  background-color: #912c2c;
+  background-color: #ffffff;
   padding: 40px 5px;
   text-align: center; }
   footer .contenedor-footer .footer-row {
@@ -334,10 +337,10 @@ footer {
     flex-wrap: wrap; }
     footer .contenedor-footer .footer-row div h4 {
       font-size: 20px;
-      color: #d9ac2a;
+      color: #302424;
       margin-bottom: 25px;
       font-weight: 500;
-      border-bottom: 2px solid #d9ac2a;
+      border-bottom: 2px solid #ccc7bf;
       padding-bottom: 10px;
       display: inline-block; }
     footer .contenedor-footer .footer-row div ul {
@@ -345,7 +348,7 @@ footer {
       footer .contenedor-footer .footer-row div ul li a {
         font-size: 18px;
         text-decoration: none;
-        color: #D8D583;
+        color: #302424;
         display: block; }
     footer .contenedor-footer .footer-row div .social-link a img {
       width: 30px;

@@ -12,31 +12,32 @@
     .form-contacto{
         width: 600px;
         height: 550px;
-        background: $color-secundario;
+        background: $color-terciario;
         padding: 20px;
         margin: 190px 0;
         border-radius: 10px;
         box-shadow: 7px 8px 16px $color-terciario;
         grid-area: contacto;
         h1{
-            color: $color-terciario;
+            color: $color-principal;
             font-size: 35px;
             margin: 17px 0;
         }
         .controls{
             width: 100%;
-            background: $color-principal;
+            background: $color-secundario;
             border: none;
             padding: 12px;
             margin: 15px 0;
             font-size: 23px;
             &::placeholder{
-                color: black;
+                color: $color-principal;
             }
         }
         .botons{
             width: 100%;
-            background: $color-terciario;
+            color: $color-secundario;
+            background: $color-principal;
             border: none;
             font-size: 23px;
             font-weight: 700;
@@ -52,19 +53,19 @@
     h2{
         font-size: 45px;
         font-weight: 900;
-        color: $color-secundario;
+        color: $color-principal;
         margin: 20px 0 30px 0;
-        border: 2px solid $color-secundario;
-        background-color: $color-terciario;
+        border: 2px solid $color-principal;
+        background-color: $color-secundario;
         padding: 10px;
     }
     p{
         width: 600px;
-        color: $color-terciario;
+        color: $color-principal;
         font-size: 20px;
         padding: 15px;
         margin: 20px 10px 20px 40px;
-        background-color: $color-secundario;
+        background-color: $color-terciario;
         border-radius: 15px;
         a{
             text-decoration: none;
