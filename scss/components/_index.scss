@@ -14,11 +14,16 @@
     padding-left: 40px;
     div{
         h1{
-            border: 2px solid $color-principal;
-            background-color: $color-secundario;
-            color: $color-principal;
+            border: 2px solid $color-secundario;
+            background-color: $color-principal;
+            color: $color-secundario;
             padding: 27px;
             font-size: 60px;
+            transition: 0.3s;
+            &:hover{
+                background-color: $color-secundario;
+                color: $color-principal;
+            }
         }
         p{
             border: 2px solid $color-principal;
@@ -28,6 +33,11 @@
             font-size: 23px;
             font-weight: 600;
             padding: 7px;
+            transition: 0.3s;
+            &:hover{
+                background-color: $color-principal;
+                color: $color-secundario;
+            }
         }
     }
 }
@@ -51,7 +61,7 @@
         div{
             @extend %productos-contenedor;
                 &:hover{
-                transform: scale(1.1);
+                transform: scale(1.06);
             }
             img{
                 width: 93%;

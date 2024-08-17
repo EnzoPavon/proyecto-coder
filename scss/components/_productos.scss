@@ -7,6 +7,10 @@
         font-size: 35px;
         margin: 0 0 30px 0;
         padding: 30px;
+        transition: 0.3s;
+        &:hover{
+            font-size: 40px;
+        }
     }
 }
 
@@ -47,5 +51,9 @@
         font-size: 35px;
         margin: 0 0 30px 0;
         padding: 30px;
+        transition: 0.3s;
+        &:hover{
+            font-size: 40px;
+        }
     }
 }
