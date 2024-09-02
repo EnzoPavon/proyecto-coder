@@ -9,7 +9,7 @@
         img{
             width: 600px;
             height: 380px;
-            border-radius: 10px;
+            border-radius: 2px;
         }
         div{
             h1{
@@ -20,6 +20,11 @@
                 border: 2px solid $color-principal;
                 background-color: $color-secundario;
                 padding: 10px;
+                transition: 0.3s;
+                &:hover{
+                    background-color: $color-principal;
+                    color: $color-secundario;
+                }
             }
             p{
                 width: 600px;
@@ -29,7 +34,13 @@
                 padding: 15px;
                 margin: 20px 10px 20px 40px;
                 background-color: $color-terciario;
-                border-radius: 15px;
+                border-radius: 2px;
+                transition: 0.3s;
+                &:hover{
+                    background-color: $color-principal;
+                    color: $color-secundario;
+                    transform: scale(1.03);
+                }
             }
 
         }
@@ -45,6 +56,12 @@
         font-weight: 700;
         padding: 10px;
         text-align: center;
+        transition: 0.3s;
+        &:hover{
+            background-color: $color-terciario;
+            color: $color-principal;
+            transform: scale(1.03);
+        }
     }
     .grid-portafolio{
         display: grid;

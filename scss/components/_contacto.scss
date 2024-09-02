@@ -15,9 +15,13 @@
         background: $color-terciario;
         padding: 20px;
         margin: 190px 0;
-        border-radius: 10px;
-        box-shadow: 7px 8px 16px $color-terciario;
+        border-radius: 2px;
         grid-area: contacto;
+        transition: 0.3s;
+        &:hover{
+            transform: scale(1.03);
+            box-shadow: 7px 8px 16px $color-terciario;
+            }
         h1{
             color: $color-principal;
             font-size: 35px;
@@ -30,8 +34,12 @@
             padding: 12px;
             margin: 15px 0;
             font-size: 23px;
+            transition: 0.3s;
             &::placeholder{
                 color: $color-principal;
+            }
+            &:hover{
+                transform: scale(1.02);
             }
         }
         .botons{
@@ -43,6 +51,12 @@
             font-weight: 700;
             margin-top: 20px;
             padding: 12px;
+            transition: 0.3s;
+            &:hover{
+                background-color: $color-secundario;
+                color: $color-principal;
+                transform: scale(1.03);
+            }
         }
 
     }
@@ -58,6 +72,11 @@
         border: 2px solid $color-principal;
         background-color: $color-secundario;
         padding: 10px;
+        transition: 0.3s;
+            &:hover{
+                background-color: $color-principal;
+                color: $color-secundario;
+            }
     }
     p{
         width: 600px;
@@ -66,7 +85,13 @@
         padding: 15px;
         margin: 20px 10px 20px 40px;
         background-color: $color-terciario;
-        border-radius: 15px;
+        border-radius: 5px;
+        transition: 0.3s;
+        &:hover{
+            background-color: $color-principal;
+            color: $color-secundario;
+            transform: scale(1.03);
+        }
         a{
             text-decoration: none;
             color: $color-principal;
@@ -77,4 +102,9 @@
 
 .map{
     grid-area: mapa;
+    padding: 15px;
+    transition: 0.3s;
+        &:hover{
+        transform: scale(1.03);
+    }
 }

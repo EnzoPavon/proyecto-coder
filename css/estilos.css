@@ -116,7 +116,7 @@ header nav div div ul li a {
       background-color: #302424;
       color: #ffffff; }
   .destacados article div:hover {
-    transform: scale(1.06); }
+    transform: scale(1.03); }
   .destacados article div img {
     width: 93%;
     height: 250px; }
@@ -158,7 +158,7 @@ header nav div div ul li a {
       font-size: 40px; }
 
 .productos-mesadas article div:hover, .productos-pared article div:hover {
-  transform: scale(1.1); }
+  transform: scale(1.03); }
 
 .productos-mesadas article div img, .productos-pared article div img {
   width: 93%;
@@ -197,7 +197,7 @@ header nav div div ul li a {
     .maison article img {
       width: 600px;
       height: 380px;
-      border-radius: 10px; }
+      border-radius: 2px; }
     .maison article div h1 {
       font-size: 45px;
       font-weight: 900;
@@ -205,7 +205,11 @@ header nav div div ul li a {
       margin: 20px 0 30px 0;
       border: 2px solid #302424;
       background-color: #ffffff;
-      padding: 10px; }
+      padding: 10px;
+      transition: 0.3s; }
+      .maison article div h1:hover {
+        background-color: #302424;
+        color: #ffffff; }
     .maison article div p {
       width: 600px;
       color: #302424;
@@ -214,7 +218,12 @@ header nav div div ul li a {
       padding: 15px;
       margin: 20px 10px 20px 40px;
       background-color: #ccc7bf;
-      border-radius: 15px; }
+      border-radius: 2px;
+      transition: 0.3s; }
+      .maison article div p:hover {
+        background-color: #302424;
+        color: #ffffff;
+        transform: scale(1.03); }
 
 .portafolio h2 {
   background-color: #302424;
@@ -222,7 +231,12 @@ header nav div div ul li a {
   font-size: 35px;
   font-weight: 700;
   padding: 10px;
-  text-align: center; }
+  text-align: center;
+  transition: 0.3s; }
+  .portafolio h2:hover {
+    background-color: #ccc7bf;
+    color: #302424;
+    transform: scale(1.03); }
 
 .portafolio .grid-portafolio {
   display: grid;
@@ -254,9 +268,12 @@ header nav div div ul li a {
     background: #ccc7bf;
     padding: 20px;
     margin: 190px 0;
-    border-radius: 10px;
-    box-shadow: 7px 8px 16px #ccc7bf;
-    grid-area: contacto; }
+    border-radius: 2px;
+    grid-area: contacto;
+    transition: 0.3s; }
+    .contacto-page .form-contacto:hover {
+      transform: scale(1.03);
+      box-shadow: 7px 8px 16px #ccc7bf; }
     .contacto-page .form-contacto h1 {
       color: #302424;
       font-size: 35px;
@@ -267,9 +284,12 @@ header nav div div ul li a {
       border: none;
       padding: 12px;
       margin: 15px 0;
-      font-size: 23px; }
+      font-size: 23px;
+      transition: 0.3s; }
       .contacto-page .form-contacto .controls::placeholder {
         color: #302424; }
+      .contacto-page .form-contacto .controls:hover {
+        transform: scale(1.02); }
     .contacto-page .form-contacto .botons {
       width: 100%;
       color: #ffffff;
@@ -278,7 +298,12 @@ header nav div div ul li a {
       font-size: 23px;
       font-weight: 700;
       margin-top: 20px;
-      padding: 12px; }
+      padding: 12px;
+      transition: 0.3s; }
+      .contacto-page .form-contacto .botons:hover {
+        background-color: #ffffff;
+        color: #302424;
+        transform: scale(1.03); }
 
 .showroom {
   grid-area: showroom; }
@@ -289,7 +314,11 @@ header nav div div ul li a {
     margin: 20px 0 30px 0;
     border: 2px solid #302424;
     background-color: #ffffff;
-    padding: 10px; }
+    padding: 10px;
+    transition: 0.3s; }
+    .showroom h2:hover {
+      background-color: #302424;
+      color: #ffffff; }
   .showroom p {
     width: 600px;
     color: #302424;
@@ -297,14 +326,23 @@ header nav div div ul li a {
     padding: 15px;
     margin: 20px 10px 20px 40px;
     background-color: #ccc7bf;
-    border-radius: 15px; }
+    border-radius: 5px;
+    transition: 0.3s; }
+    .showroom p:hover {
+      background-color: #302424;
+      color: #ffffff;
+      transform: scale(1.03); }
     .showroom p a {
       text-decoration: none;
       color: #302424;
       font-weight: 500; }
 
 .map {
-  grid-area: mapa; }
+  grid-area: mapa;
+  padding: 15px;
+  transition: 0.3s; }
+  .map:hover {
+    transform: scale(1.03); }
 
 .form-page {
   height: auto;
@@ -319,7 +357,12 @@ header nav div div ul li a {
     margin: 70px 0 30px 0;
     border: 2px solid #302424;
     background-color: #ffffff;
-    padding: 10px; }
+    padding: 10px;
+    transition: 0.3s; }
+    .form-page .registro-info h1:hover {
+      background-color: #302424;
+      color: #ffffff;
+      transform: scale(1.1); }
   .form-page .registro-info p {
     width: 600px;
     color: #302424;
@@ -328,17 +371,25 @@ header nav div div ul li a {
     padding: 15px;
     margin: 40px 0 20px 0;
     background-color: #ccc7bf;
-    border-radius: 15px; }
+    border-radius: 15px;
+    transition: 0.3s; }
+    .form-page .registro-info p:hover {
+      background-color: #302424;
+      color: #ffffff;
+      transform: scale(1.03); }
   .form-page .form-register {
     width: 750px;
     height: 650px;
     background: #ccc7bf;
     padding: 30px;
     margin: 50px 0 45px 0;
-    border-radius: 10px;
-    box-shadow: 7px 13px 37px #222222;
+    border-radius: 4px;
     font-weight: 500;
-    font-size: 20px; }
+    font-size: 20px;
+    transition: 0.3s; }
+    .form-page .form-register:hover {
+      box-shadow: 7px 13px 37px #222222;
+      transform: scale(1.03); }
     .form-page .form-register h2 {
       color: #302424;
       font-size: 40px;
@@ -350,9 +401,12 @@ header nav div div ul li a {
       border-radius: 4px;
       margin-bottom: 40px;
       border: 1px solid #302424;
-      font-size: 18px; }
+      font-size: 18px;
+      transition: 0.3s; }
       .form-page .form-register .controls::placeholder {
         color: #302424; }
+      .form-page .form-register .controls:hover {
+        transform: scale(1.02); }
     .form-page .form-register .botons {
       width: 100%;
       background: #302424;
